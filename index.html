@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inmuebles — coming soon</title>
+<meta name="description" content="Spain's official cadastral data, brought to life.">
+<style>
+  :root{ --ink:#0E1726; --teal:#0E6E5C; --teal2:#0A4A3E; --mint:#79D8C0; --amber:#C8881E; }
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  html,body{ height:100%; }
+  body{
+    font-family:-apple-system,"SF Pro Display","Segoe UI","Helvetica Neue",Arial,sans-serif;
+    color:#fff; background:linear-gradient(160deg,#0A4A3E 0%, #0E1726 78%);
+    min-height:100%; display:flex; align-items:center; justify-content:center; padding:32px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{ max-width:680px; }
+  .kicker{ font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:12px; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--mint); font-weight:600; }
+  .kicker .dot{ color:var(--amber); }
+  h1{ font-size:clamp(44px,9vw,84px); font-weight:800; letter-spacing:-.02em; line-height:.98; margin:10px 0 0; }
+  .tag{ font-size:clamp(18px,3.4vw,24px); font-weight:600; color:#CFEFE6; margin-top:16px; line-height:1.2; }
+  p.lead{ font-size:15px; color:#A9C6BE; margin-top:20px; line-height:1.6; max-width:560px; }
+  .soon{ display:inline-block; margin-top:28px; font-family:ui-monospace,"SF Mono",Menlo,monospace;
+    font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:#CFEFE6;
+    border:1px solid rgba(121,216,192,.4); border-radius:20px; padding:8px 16px; }
+  footer{ margin-top:34px; font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:11px;
+    letter-spacing:.08em; color:#6E8C84; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">iOS <span class="dot">·</span> iPad <span class="dot">·</span> macOS <span class="dot">·</span> visionOS</div>
+    <h1>Inmuebles</h1>
+    <div class="tag">Spain's official property registry,<br>brought to life.</div>
+    <p class="lead">Look up any building in Spain and see its official cadastral identity — reference, parcel boundary, the units inside, and a true-to-scale 3D model.</p>
+    <span class="soon">Coming soon · TestFlight</span>
+    <footer>inmuebles.lemambo.com</footer>
+  </div>
+</body>
+</html>
